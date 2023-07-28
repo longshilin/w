@@ -1,1 +1,1 @@
-* [Standalone Page](standalone-page.md)
+* [longshilin.com](https://longshilin.com/)
