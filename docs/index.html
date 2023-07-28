@@ -12,6 +12,9 @@
   <!-- Theme: Simple -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
+  <!-- giscus评论  -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
+
   <!-- Theme: Simple (light + dark) -->
   <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)"
     href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
@@ -186,11 +189,28 @@
         title: '',
       },
 
+      // 计数统计
       count:{
         countable:true,
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
         language:'chinese'
+      },
+
+      // giscus评论
+      giscus:{
+        repo: "longshilin/w",
+        repoId: "R_kgDOKAwvLA",
+        category: "Announcements",
+        categoryId: "DIC_kwDOKAwvLM4CYMOU",
+        mapping: "pathname",
+        reactionsEnabled: "1",
+        strict: "0",
+        emitMetadata: "1",
+        inputPosition: "top",
+        theme: "preferred_color_scheme",
+        lang: "zh-CN",
+        loading: "lazy"
       },
 
       // CUSTOM PLUGINS
@@ -375,38 +395,7 @@
   </script>
 
   <!-- giscus comment https://giscus.app/zh-CN-->
-  <script src="https://giscus.app/client.js"
-          data-repo="longshilin/w"
-          data-repo-id="R_kgDOKAwvLA"
-          data-category-id="DIC_kwDOKAwvLM4CYMOU"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="1"
-          data-input-position="top"
-          data-theme="preferred_color_scheme"
-          data-lang="zh-CN"
-          data-loading="lazy"
-          crossorigin="anonymous"
-          async>
-  </script>
-
-  <script>
-    // JavaScript code to move the <div class="giscus"> container inside the <article> element
-    document.addEventListener("DOMContentLoaded", function() {
-      // Find the <article> element and the <div class="giscus"> container
-      const articleElement = document.querySelector("#main");
-      const giscusContainer = document.querySelector(".giscus");
-
-      // Check if both elements exist on the page
-      if (articleElement && giscusContainer) {
-        // Append the <div class="giscus"> container as a child of the <article> element
-        articleElement.appendChild(giscusContainer);
-      } else {
-        console.error("One or both elements not found on the page.");
-      }
-    });
-  </script>
+  <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
 
   <!-- Customizable Theme-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
