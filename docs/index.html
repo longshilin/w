@@ -391,6 +391,23 @@
           async>
   </script>
 
+  <script>
+    // JavaScript code to move the <div class="giscus"> container inside the <article> element
+    document.addEventListener("DOMContentLoaded", function() {
+      // Find the <article> element and the <div class="giscus"> container
+      const articleElement = document.querySelector("#main");
+      const giscusContainer = document.querySelector(".giscus");
+
+      // Check if both elements exist on the page
+      if (articleElement && giscusContainer) {
+        // Append the <div class="giscus"> container as a child of the <article> element
+        articleElement.appendChild(giscusContainer);
+      } else {
+        console.error("One or both elements not found on the page.");
+      }
+    });
+  </script>
+
   <!-- Customizable Theme-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
