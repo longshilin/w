@@ -9,4 +9,5 @@
 - 800-awesome
     - [001-anything_about_game](800-awesome/001-anything_about_game.md)
     - [002-awesome-unity-open-source-on-github](800-awesome/002-awesome-unity-open-source-on-github.md)
+    - [003-AwesomeUnityCommunity](800-awesome/003-AwesomeUnityCommunity.md)
 - 900-saving
