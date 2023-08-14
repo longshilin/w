@@ -6,4 +6,7 @@
 - 300-video
 - 400-other
 - 500-idea2do
+- 800-awesome
+    - [001-anything_about_game](https://github.com/killop/anything_about_game/blob/master/README.md)
+    - [002-awesome-unity-open-source-on-github](https://github.com/baba-s/awesome-unity-open-source-on-github)
 - 900-saving
