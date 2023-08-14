@@ -1,7 +1,7 @@
 - 100-unity
     - [001-optimize](100-unity/001-optimize.md)
-    - [002-ui](100-unity/001-ui.md)
-    - [003-navigation](100-unity/001-navigation.md)
+    - [002-ui](100-unity/002-ui.md)
+    - [003-navigation](100-unity/003-navigation.md)
 - 200-readwise
 - 300-video
 - 400-other
